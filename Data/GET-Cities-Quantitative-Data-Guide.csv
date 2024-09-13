@@ -1,0 +1,107 @@
+﻿Question,ID
+Referral Channel,SQ1
+Submitted At,SQ2
+How do you identify?,SQ3
+Which of the following best describes you?,SQ4
+What is your ZIP code?,SQ5
+Zip,SQ6
+Zip Raw,SQ7
+Town,SQ8
+"Which of the following best reflects your employment situation?
+",SQ9
+"Select all that apply to your responsibilities in your family?
+",SQ10
+"Select all that apply to your education experience?
+",SQ11
+"Are you a founder of your current company?
+",SQ12
+What is your job title?,SQ13
+"Are you currently in a technical role?
+",SQ14
+"Were you previously in a technical role?
+",SQ15
+"In the previous questions you told us you are currently in a technical role in which you use  design, science, engineering, or math on a daily basis. Which of the following applies to your current role :",SQ16
+Which of the following factors contributed to your decision to transition from technology because they were lacking in your workplace?,SQ17
+"What might stop you from transitioning out of technology?
+",SQ18
+"Would you consider working with a mentor to help you develop a plan to stay in the technology field on different terms?
+",SQ19
+"In the previous questions you told us you moved from a role in which you used design, science, engineering, or math on a daily basis to one in which you did not. Which of the following applies to this change?",SQ20
+Which of the following factors contributed to your transition from technology because they were lacking in your workplace?,SQ21
+What would have stopped you from transitioning out of technology?,SQ22
+Which of the following factors contribute to your current decision to stay in technology?,SQ23
+What stage are you at in your technology career?,SQ24
+"I am pleased with the career advancement opportunities available to me.
+",SQ25
+"On average, how often have you been promoted in your current company?
+",SQ26
+"Do you have people that you trust with relevant past experience that can help you make career decisions? 
+",SQ27
+"Do you have people that you trust that can help you develop a plan for getting promoted at work?
+",SQ28
+"I am satisfied with the culture of my workplace.
+",SQ29
+"My company has a diverse leadership team.
+",SQ30
+"I am able to make decisions affecting my work.
+",SQ31
+"My manager and I have a good working relationship.
+",SQ32
+"I am satisfied with my overall compensation.
+",SQ33
+"There is equity regarding compensation at my work place.
+",SQ34
+"The last time you saw an increase in your compensation at work, where did it come from?
+",SQ35
+Have you ever been passed up for a promotion because you were a parent or had another family responsibility?,SQ36
+"On average, how many hours do you think you have to work each week to be successful at your role?
+",SQ37
+"I am satisfied with my total benefits package.
+",SQ38
+"Which of the following are the most important healthcare-related benefits in the workplace?
+",SQ39
+"Which of the following applies to your work environment?
+",SQ40
+"If you lost the ability to work remotely, would you leave your current employer?",SQ41
+Select the stage that best describes your most recent role in technology.,SQ42
+"I was pleased with the career advancement opportunities available to me.
+",SQ43
+"On average, how often were you promoted?
+",SQ44
+"Have you ever had second thoughts about transitioning out of technology? 
+",SQ45
+"Would you consider working with a mentor to help you develop a plan to re-enter the field on different terms?
+",SQ46
+I am satisfied with the culture of my workplace.,SQ47
+"My company had a diverse leadership team.
+",SQ48
+"I was able to make decisions affecting my work.
+",SQ49
+"My manager and I had a good working relationship.
+",SQ50
+"I was satisfied with my overall compensation.
+",SQ51
+"There was equity regarding compensation at my work place.
+",SQ52
+"Were you ever passed up for a promotion because you were a parent or had another family responsibility?
+",SQ53
+"On average, how many hours did you have to work each week to be successful at your role?",SQ54
+"I was satisfied with my total benefits package.
+",SQ55
+Which of the following are the most important healthcare-related benefits in the workplace?,SQ56
+"Which of the following applied to your work environment?
+",SQ57
+"Did the lack of remote work have anything to do with your transition?
+",SQ58
+"Is it important for you to live in a city where your company has an office for in-person work?
+",SQ59
+"How did you hear about the Chi Tech Survey?
+",SQ60
+"To prevent spam & bot responses, we have to make sure you're a real person. What is 2 + 3?",SQ61
+ID,SQ62
+UTM Source,SQ63
+UTM Medium,SQ64
+UTM Campaign,SQ65
+UTM Term,SQ66
+UTM Content,SQ67
+Device Type,SQ68
