@@ -1,0 +1,14 @@
+# Evaluating Women’s Experience in Technology
+
+## Overview
+Over the past decade, the presence of women in the traditionally male-dominated technology sector in the United States has steadily increased, marking significant progress toward gender equality. However, true equality goes beyond representation; it requires that women have positive experiences, including satisfaction with their career advancement, workplace culture, and compensation. Improving these factors enables women to thrive and contribute most effectively in their roles, thereby enhancing the overall technology sector. Ultimately, it is crucial to continue implementing strategies that not only attract more women to work in technology but also support their success and satisfaction in these roles.
+
+Gender Equity in Tech (GET) Cities is a non-profit organization whose mission is to foster an equitable environment in the technology sector. In 2022, they created and distributed a survey to gain a deeper understanding of the experiences of women working in the technology sector. A total of 280 women working full-time in the technology sector in the Midwest of the United States responded to the survey. These respondents came from a variety of ethnicities, educational attainment levels, and cities in the Midwest, and had varying levels of work experience. The survey included both quantitative questions, such as Likert scale questions, and qualitative questions, such as open-ended questions. The diverse responses provided valuable insights, leading GET Cities to deem the survey a massive success.
+
+This research uses a variety of computational techniques to evaluate the overall experience of women working full-time in the technology sector, ultimately gaining more insights into various aspects that reflect their experiences, as well as factors that influence retention in both their current technology roles and the sector as a whole. Some of the causal inference techniques used include t-tests, correlation tests, chi-squared tests, and multivariate logistic regression. Additionally, natural language processing (NLP) techniques, such as term frequencies and sentiment analysis, were used. Lastly, various data visualization techniques were utilized to effectively present the outputs of the causal inference and NLP techniques, as well as the results of other noteworthy summary statistics, to best display the main findings and takeaways.
+
+## Files
+This is the [R script](https://github.com/AlexZak135/GET-Cities/blob/main/Code/GET-Cities-Code.R) containing the code used for this analysis, and these are the [datasets](https://github.com/AlexZak135/GET-Cities/tree/main/Data) used in the R script.
+
+## Outputs
+These are the [outputs](https://github.com/AlexZak135/GET-Cities/tree/main/Outputs) that represent the main findings from the techniques used to analyze both the quantitative and qualitative survey questions.
