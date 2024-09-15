@@ -1,6 +1,6 @@
 # Title: GET Cities Analysis
 # Author: Alexander Zakrzeski
-# Date: September 14, 2024
+# Date: September 15, 2024
 
 # Part 1: Setup and Configuration
 
@@ -14,7 +14,7 @@ library(stringr)
 library(tibble)
 library(tidyr)
 
-# Load to visualize data
+# Load to produce charts and tables
 library(ggplot2)
 library(gt)
 library(scales)
@@ -402,9 +402,9 @@ plot_likert <- function(column1, column2, value1) {
 }
 
 # Output the stacked bar charts to display the proportions
-figure3 <- plot_likert("sq11", "sq25")
-figure4 <- plot_likert("sq40", "sq29")
-figure5 <- plot_likert("sq24", "sq33")
+figure5 <- plot_likert("sq11", "sq25")
+figure6 <- plot_likert("sq40", "sq29")
+figure7 <- plot_likert("sq24", "sq33")
 
 # Drop rows and filter based on the set condition
 compensation <- df_quant |>  
