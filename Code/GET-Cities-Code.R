@@ -195,7 +195,7 @@ demographics <- df_quant |>
 
 # Create a stacked bar chart to display proportions
 ggplot(demographics, aes(x = sq4, y = prop, fill = sq11)) +   
-  geom_col(width = 0.8, position = "stack") +
+  geom_col(width = 0.8) +
   geom_text(aes(label = percent(prop, accuracy = 1)), 
             position = position_stack(vjust = 0.5), size = 5, 
             color = "#ffffff") + 
@@ -215,7 +215,7 @@ count(df_quant, sq13) |> mutate(pct = percent(n / sum(n))) |> arrange(desc(n))
 # Part 4: Experiences
 
 # Iteratively tokenize text into n-grams with specified size "number"
-experiences <- map_df(1:3, function(number) { 
+experiences <- map_dfr(1:3, function(number) { 
   processed <- df_qual |> 
     unnest_tokens(ngram, experience, token = "ngrams", n = number) |>
     drop_na(ngram) 
@@ -370,7 +370,7 @@ plot_likert <- function(column1, column2, value1) {
   # Create a stacked bar chart to display proportions 
   plot <- ggplot(processed, aes(x = !!sym(column1), y = prop, 
                                 fill = !!sym(column2))) +   
-    geom_col(width = 0.65, position = "stack") +
+    geom_col(width = 0.65) +
     geom_text(aes(label = pct), position = position_stack(vjust = 0.5), 
               size = 5, color = "#ffffff") + 
     geom_hline(yintercept = 0, linewidth = 1.35, color = "#000000") + 
