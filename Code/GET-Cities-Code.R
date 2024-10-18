@@ -1,6 +1,6 @@
 # Title: GET Cities Analysis
 # Author: Alexander Zakrzeski
-# Date: September 15, 2024
+# Date: October 18, 2024
 
 # Part 1: Setup and Configuration
 
@@ -202,7 +202,7 @@ ggplot(demographics, aes(x = sq4, y = prop, fill = sq11)) +
   geom_hline(yintercept = 0, linewidth = 1.35, color = "#000000") + 
   scale_y_continuous(limits = c(0, 1), labels = percent) +
   scale_fill_manual(values = c("#005288", "#0078ae", "#828284")) +
-  labs(title = "Figure 1: Technologists by Ethnicity and Education Level", 
+  labs(title = "Figure 1: Technologists by Race/Ethnicity and Education Level", 
        x = "", y = "") +
   guides(fill = guide_legend(title = "", reverse = TRUE)) + 
   coord_flip() + 
@@ -510,14 +510,14 @@ retention_table <- as_tibble(margins_summary(retention_lr)) |>
                                 "Career Level", "Entry-Level", 
                                 "Career Advancement", "sq25_Dissatisfied", 
                                 "Compensation", "sq33_Dissatisfied", 
-                                "Ethnicity", "Non-White"), 
+                                "Race/Ethnicity", "Non-White"), 
                    AME = c("", "—", "", "—", "", "—", "", "—", "", "—"), 
                    `95% CI` = c("", "—", "", "—", "", "—", "", "—", "", "—"), 
                    `p-value` = c("", "", "", "", "", "", "", "", "", ""))) |> 
   # Change the order of the rows and modify values of a column
   slice(18, 19, 9, 10, 11, 2, 1, 12, 13, 3, 4, 14, 15, 5, 6, 16, 17, 7, 8) |>
   mutate(Variable = if_else(
-    !Variable %in% c("Ethnicity", "Education Level", "Career Level", 
+    !Variable %in% c("Race/Ethnicity", "Education Level", "Career Level", 
                      "Career Advancement", "Compensation"), 
     paste0("\u00A0\u00A0\u00A0\u00A0", Variable), Variable 
     ) |>            
