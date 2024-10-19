@@ -529,7 +529,7 @@ retention_table <- as_tibble(margins_summary(retention_lr)) |>
 # Create a table to display the outputs from the regression model
 gt(retention_table) |>
   tab_header(title = md("**Table 1: Results of the Multivariate Logistic 
-                           Regression Model**")) |>
+                           Regression Model on Planned Role Retention**")) |>
   cols_align(align = "center", columns = -Variable) |>
   cols_label(`AME` = "Average Marginal Effect", 
              `95% CI` = "95% Confidence Interval") |>
