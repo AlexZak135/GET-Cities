@@ -302,8 +302,8 @@ cor(df_qual$age, df_qual$score)
 # Create a scatter plot to visualize the relationship between the variables
 ggplot(df_qual, aes(x = age, y = score)) +
   geom_point(color = "#0078ae", size = 2.25) + 
-  geom_smooth(method = "lm", se = FALSE, linewidth = 1.15, color = "black") +
-  geom_hline(yintercept = -1, linewidth = 1.15, color = "black") +
+  geom_smooth(method = "lm", se = FALSE, linewidth = 1.15, color = "#000000") +
+  geom_hline(yintercept = -1, linewidth = 1.15, color = "#000000") +
   scale_x_continuous(limits = c(18, 68), breaks = seq(18, 68, by = 16)) +
   scale_y_continuous(limits = c(-1, 1), breaks = seq(-1, 1, by = 0.5), 
                      labels = label_number(drop0trailing = TRUE)) +
